@@ -4,7 +4,7 @@ $green: #c1d72e;
 $blue: #82d2e5;
 $grey:#f3f3f3;
 $white: #fff;
-$base-color:$green ;
+ base-color:green;
 
 /* Mixin's */ 
 
@@ -54,7 +54,7 @@ $base-color:$green ;
 }
 
 body {
-  background: $base-color;
+  background: lightgreen;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   color:$white;
   height:100%;
@@ -70,9 +70,9 @@ body {
 
 
 canvas{
-  color:$white;
-  border: $white dashed 2px;
-  padding:15px;
+  color: white;
+  border: white dashed 2px;
+  padding:18px;
 }
 
 h1, h2, h3 {
@@ -83,7 +83,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.6em;
+	font-size: 2.4em;
 }
 
 h2 {
@@ -92,6 +92,7 @@ h2 {
 
 p{
   font-size: 1.6em;
+  text-align: center;
 }
 
 #alphabet {
@@ -108,14 +109,14 @@ p{
   width:35px;
   height:30px;
   padding-top:10px;
-  background:$white;
-  color:$base-color;
+  background: white;
+  color: base-color;
   cursor:pointer;
   @include corners(5px);
   border: solid 1px $white;
     
     &:hover{
-      background:$base-color;
+      background:green;
       border: solid 1px $white;
       color:$white;
     }
